@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
         /*
         For some reason if have a dependency with result1 and only after receiving result,
-         if we want to excute another api request. then we can do this way 
+         if we want to excute another api request. then we can do this way.
          */
         val result2 = getResult2FromApi(result1) // wait until job is done
         setTextOnMainThread(result2)
